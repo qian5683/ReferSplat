@@ -72,3 +72,14 @@ python render.py -m <path to output_model>
 ```bash
 Please refer to the "Grounded-SAM: Detect and Segment Everything with Text Prompt" method in https://github.com/IDEA-Research/Grounded-Segment-Anything
 ```
+
+## BibTeX
+Please consider to cite ReferSplat if it helps your research.
+
+```bibtex
+@inproceedings{ReferSplat,
+  title={ReferSplat: Referring Segmentation in 3D Gaussian Splatting},
+  author={He, Shuting and Jie, Guangquan and Wang, Changshuo and Zhou, Yun and Hu, Shuming and Li, Guanbin and Ding, Henghui},
+  booktitle={International Conference on Machine Learning}
+}
+```
