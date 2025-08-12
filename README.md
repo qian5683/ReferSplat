@@ -1,6 +1,14 @@
-# ReferSplat
+<p align="center">
+  <h1 align="center">ReferSplat: Referring Segmentation in 3D Gaussian Splatting</h1>
+  <p align="center">
+    ICML 2025 Oral
+  </p>
+ <p align="center">
+    <a href="https://arxiv.org/abs/2508.08252">
+      <img src='https://img.shields.io/badge/Paper-PDF-green?style=flat&logo=arXiv&' alt='arXiv PDF'>
+    </a>
+  </p>
 
----
 ## Abstract
 We introduce Referring 3D Gaussian Splatting
 Segmentation (R3DGS), a new task that focuses
@@ -78,8 +86,8 @@ Please consider to cite ReferSplat if it helps your research.
 
 ```bibtex
 @inproceedings{ReferSplat,
-  title={ReferSplat: Referring Segmentation in 3D Gaussian Splatting},
+  title={{ReferSplat}: Referring Segmentation in 3D Gaussian Splatting},
   author={He, Shuting and Jie, Guangquan and Wang, Changshuo and Zhou, Yun and Hu, Shuming and Li, Guanbin and Ding, Henghui},
-  booktitle={International Conference on Machine Learning}
+  booktitle={International Conference on Machine Learning (ICML)}
 }
 ```
