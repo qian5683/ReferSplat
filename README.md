@@ -80,14 +80,14 @@ python render.py -m <path to output_model>
 ```bash
 Please refer to the "Grounded-SAM: Detect and Segment Everything with Text Prompt" method in https://github.com/IDEA-Research/Grounded-Segment-Anything
 ```
-
-## BibTeX
-Please consider to cite ReferSplat if it helps your research.
-
 ## Checkpoints and Pseudo mask
 ```bash
 The **Checkpoints and Pseudo mask** is accessible for download via the following link:https://drive.google.com/drive/folders/1z9O2FWwUlE29lSgLDj9Af7sv5ZQv6sc_?usp=sharing
 ```
+
+## BibTeX
+Please consider to cite ReferSplat if it helps your research.
+
 ```bibtex
 @inproceedings{ReferSplat,
   title={{ReferSplat}: Referring Segmentation in 3D Gaussian Splatting},
