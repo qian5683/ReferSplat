@@ -37,6 +37,9 @@ The **RefLERF dataset** is accessible for download via the following link:https:
 |---waldo_kitchen
 |---teatime
 ```
+## Checkpoints and Pseudo mask
+
+The **Checkpoints and Pseudo mask** is accessible for download via the following link:https://drive.google.com/drive/folders/1z9O2FWwUlE29lSgLDj9Af7sv5ZQv6sc_?usp=sharing
 
 ## Cloning the Repository
 The repository contains submodules, thus please check it out with
@@ -80,10 +83,7 @@ python render.py -m <path to output_model>
 ```bash
 Please refer to the "Grounded-SAM: Detect and Segment Everything with Text Prompt" method in https://github.com/IDEA-Research/Grounded-Segment-Anything
 ```
-## Checkpoints and Pseudo mask
-```bash
-The **Checkpoints and Pseudo mask** is accessible for download via the following link:https://drive.google.com/drive/folders/1z9O2FWwUlE29lSgLDj9Af7sv5ZQv6sc_?usp=sharing
-```
+
 
 ## BibTeX
 Please consider to cite ReferSplat if it helps your research.
