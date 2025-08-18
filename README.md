@@ -29,7 +29,7 @@ task and 3D open-vocabulary segmentation benchmarks. Code, trained models, and t
 be publicly released.
 ![ReferSplat Example](teaser.png)
 ## Datasets
-The **Ref-LERF dataset** is accessible for download via the following link:https://pan.baidu.com/s/1D9yDNfUrK-d8eGO33Avkpg?pwd=ugs3 or https://huggingface.co/datasets/FudanCVL/Ref-Lerf
+The **Ref-LERF dataset** is accessible for download via the following link: [baiduyun](https://pan.baidu.com/s/1D9yDNfUrK-d8eGO33Avkpg?pwd=ugs3) or [huggingface](https://huggingface.co/datasets/FudanCVL/Ref-Lerf)
 ```bash
 <path to ref-lerf dataset>
 |---figurines
