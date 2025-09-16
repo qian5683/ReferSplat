@@ -110,7 +110,10 @@ def readColmapCameras(cam_extrinsics, cam_intrinsics, images_folder):
         if len(mask_name)==2:
            mask_name=int(mask_name)
            mask_name=f"frame_{mask_name:05d}"
-        json_folder = os.path.join(parent_folder, 'json', mask_name + '.json')
+        if os.path.exists(os.path.join(parent_folder, 'json')):
+            json_folder = os.path.join(parent_folder, 'json/train_json', mask_name + '.json') if os.path.exists(os.path.join(parent_folder, 'json/train_json', mask_name + '.json')) else os.path.join(parent_folder, 'json/test_json', mask_name + '.json')
+        else:
+            json_folder = os.path.join(parent_folder, 'train_json', mask_name + '.json') if os.path.exists(os.path.join(parent_folder, 'json/train_json', mask_name + '.json')) else os.path.join(parent_folder, 'test_json', mask_name + '.json')
         with open(json_folder, 'r') as f:
             json_data = json.load(f)
             #print(json_data)
